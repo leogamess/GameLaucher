@@ -1,0 +1,550 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "position": {
+        "x": 293,
+        "y": 88
+      },
+      "data": {
+        "label": "开始节点",
+        "mname": "开始",
+        "showInfo": "白色病房的七次日落"
+      },
+      "type": "start",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 293,
+        "y": 88
+      },
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "position": {
+        "x": 291.8346862678053,
+        "y": 217.4407676677181
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第一幕：迷雾中的访客",
+        "showInfo": "背景：雨夜的私立精神病院走廊，灯光 flickering\n音乐：钢琴独奏《雨的印记》变调版（压抑版）\n角色：主角（林默，男，25 岁，神情憔悴）、陈医生（女，30 岁，白大褂，微笑疏离）\n文字：\n陈医生：“林先生，您妹妹林芊已经失踪 7 天了。根据监控，她最后出现在 307 病房。”\n林默：（攥紧手中的旧照片）“我要去她的病房看看。”\n陈医生：（挡住去路）“病区正在消毒，不过…（递出钥匙）你只有 30 分钟。”"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 291.8346862678053,
+        "y": 217.4407676677181
+      },
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "position": {
+        "x": 474.3212013376566,
+        "y": 401.90157598415965
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第二幕 B：质问的代价",
+        "showInfo": "背景：医院天台，暴雨倾盆\n音乐：弦乐四重奏《黑色星期五》片段\n角色：林默、陈医生（眼神冰冷）\n文字：\n陈医生：“你以为林芊是病人？（冷笑）她才是给你注射镇静剂的人。”\n（闪回：林默在束缚床上挣扎，林芊穿着白大褂抽血）"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 474.3212013376566,
+        "y": 401.90157598415965
+      },
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "position": {
+        "x": -93.37452145400073,
+        "y": 404.1001830291752
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第二幕 A：寂静的 307 号",
+        "showInfo": "背景：泛黄墙纸的单人病房，窗台摆着枯萎的向日葵\n音乐：八音盒版《卡农》（渐入杂音）\n角色：林默、林芊（回忆投影，18 岁，穿病号服，眼神空洞）\n文字（回忆）：\n林芊：（撕扯日记）“他们在给我打针… 哥哥，不要相信穿白衣服的人…”\n现实：林默发现床垫下带血的日记残页：“第 7 次日出前，我必须逃走…”"
+      },
+      "type": "plot",
+      "width": 208,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -93.37452145400073,
+        "y": 404.1001830291752
+      },
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "position": {
+        "x": -292.3952230009079,
+        "y": 595.7771859448214
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第三幕 A：药物真相",
+        "showInfo": "背景：医院地下实验室，培养皿中漂浮着人脑组织\n音乐：电子音效《心跳监测仪》加速版\n角色：林默、陈医生（真实身份：林芊的主治医师）\n文字：\n陈医生：“林芊研发的‘记忆重构剂’失控了，她想抹除你关于车祸的记忆…”\n（闪回：童年车祸，林默推开林芊导致她毁容）"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -292.3952230009079,
+        "y": 595.7771859448214
+      },
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "position": {
+        "x": 82.38907912345383,
+        "y": 589.9097120746062
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第三幕 B：幻觉陷阱",
+        "showInfo": "背景：无限循环的走廊，镜子里的林默逐渐变成林芊\n音乐：环境音《滴水声 + 低语》\n角色：林默（分裂人格）\n文字：\n镜中林芊：“哥哥，我们永远在一起不好吗？”（递出手术刀）"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 82.38907912345383,
+        "y": 589.9097120746062
+      },
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "position": {
+        "x": 334.2140334788719,
+        "y": 587.1633003338898
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第三幕 C：背叛的代价",
+        "showInfo": "背景：院长办公室，墙上挂着林芊的画像，桌上文件散落一地​\n音乐：低沉的大提琴曲《殇》​\n角色：林默、陈医生（面露惊恐）、院长（中年男性，身着西装，眼神冷漠）​\n文字：​\n院长：“陈医生，看来你和这个病人说了不该说的话。”​\n陈医生：“院长，我只是觉得他有权知道真相……”​\n院长：（打断，冷笑）“真相？你忘了自己的身份和职责了吗？”​\n林默：（愤怒地冲向院长）“你们到底对我妹妹做了什么？”​\n院长：（不慌不忙，按下桌上按钮）“保安，把这个闹事的人带走。”"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 334.2140334788719,
+        "y": 587.1633003338898
+      },
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "position": {
+        "x": 654.3576741268312,
+        "y": 583.9762250685194
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "后续补充 Bad End",
+        "showInfo": "背景：医院天台，暴雨倾盆，狂风呼啸，四周的围栏在昏暗灯光下显得摇摇欲坠。​\n音乐：愈发激昂且惊悚的《黑色星期五》弦乐四重奏版本，暴雨声与音乐交织，营造出紧张绝望的氛围。​\n角色：林默、陈医生（眼神冰冷，身后不知何时出现两个身形高大的保安，面色阴沉）​\n文字：​\n陈医生：“你以为林芊是病人？（冷笑）她才是给你注射镇静剂的人。”（闪回：林默在束缚床上挣扎，林芊穿着白大褂抽血）​\n林默：（愤怒到极点，双眼通红，怒吼道）“你胡说！这不可能！”​\n陈医生：（挥了挥手，两个保安缓缓向前逼近）“看来你不太能接受这个事实，既然如此，就继续回去接受治疗吧。”​\n林默：（后退几步，后背抵在天台围栏上，发现退路被堵，又不甘心被带走）“你们这群骗子，我不会跟你们走的！”​\n保安：（面无表情，一步步靠近，伸手欲抓住林默）“别挣扎了，乖乖跟我们回去。”"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 654.3576741268312,
+        "y": 583.9762250685194
+      },
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "position": {
+        "x": -570.919336405364,
+        "y": 1076.4197385053417
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "True End：第七次日出",
+        "showInfo": "剧情：林默恢复记忆，在海边找到伪装成渔民的林芊，她的脸戴着面具。\n台词：\n林芊：“我替你背负了 17 年的愧疚，现在… 轮到你活下去了。”\n画面：朝阳升起，两人背影分离。"
+      },
+      "type": "end",
+      "width": 190,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -570.919336405364,
+        "y": 1076.4197385053417
+      },
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "position": {
+        "x": -240.1681892087754,
+        "y": 836.2560685846737
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Good End：遗忘的向日葵",
+        "showInfo": "剧情：林默销毁药剂后失去记忆，在病房收到匿名寄来的向日葵。\n隐藏细节：陈医生的办公桌上有林芊的结婚照（新郎是林默）。"
+      },
+      "type": "end",
+      "width": 215,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -240.1681892087754,
+        "y": 836.2560685846737
+      },
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "position": {
+        "x": -63.14621831783961,
+        "y": 733.1143475269739
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Secret End：莫比乌斯环",
+        "showInfo": "剧情：林默发现自己才是被囚禁的实验体，陈医生是林芊雇来的侦探，而 “妹妹” 早已死于车祸。\n反转台词：\n陈医生：“林先生，您已经在这个循环里困了 107 次了。”"
+      },
+      "type": "end",
+      "width": 205,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -63.14621831783961,
+        "y": 733.1143475269739
+      },
+      "dragging": false
+    },
+    {
+      "id": "13",
+      "position": {
+        "x": 113.93943609617713,
+        "y": 836.2610306437966
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Bad End 1：镜中人",
+        "showInfo": "剧情：林默在镜中世界杀死自己，现实中变成植物人，床头卡写着 “307 病房，林芊”。"
+      },
+      "type": "end",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 113.93943609617713,
+        "y": 836.2610306437966
+      },
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "position": {
+        "x": 278.55744692574865,
+        "y": 733.4593366422549
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Bad End 2：暴力终结",
+        "showInfo": "剧情：林默在与保安的激烈对抗中，被保安制服并误杀，倒在血泊之中。医院对外宣称林默是精神病发作导致的意外死亡，而林芊的真相也被永远掩埋。​\n画面：林默躺在冰冷的地上，眼神逐渐失去光彩，周围是一片混乱的景象。"
+      },
+      "type": "end",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 278.55744692574865,
+        "y": 733.4593366422549
+      },
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "position": {
+        "x": 480.2825518089271,
+        "y": 785.6049826660733
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第四幕 A：真相的出口",
+        "showInfo": "背景：医院的秘密档案室，布满灰尘的文件柜堆积如山​\n音乐：紧张的钢琴旋律《神秘园之歌》变奏（节奏加快）​\n角色：林默、陈医生（协助林默）​\n文字：​\n陈医生：“我帮你争取到了一点时间，我们必须快点找到证据。”​\n林默：（快速翻找文件）“一定有什么能揭露他们罪行的东西。”​\n两人在文件中发现了医院进行非法人体实验的报告，其中林芊的名字频繁出现，她原本是医院的研究员，因反对实验而被院长等人设计陷害成病人，林默也被牵连其中。"
+      },
+      "type": "plot",
+      "width": 188,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 480.2825518089271,
+        "y": 785.6049826660733
+      },
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "position": {
+        "x": 488.53224165227385,
+        "y": 997.5204491127188
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Bad End 3：冲动的恶果",
+        "showInfo": "剧情：林默拿着证据去找院长对峙，院长却早有准备，销毁了证据并再次将林默囚禁，还对他进行更残酷的实验，林默彻底失去了自由和希望。​\n画面：林默被关在阴暗的病房里，周围是各种医疗器械，他眼神绝望，身体被束缚带紧紧捆绑。"
+      },
+      "type": "end",
+      "width": 200,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 488.53224165227385,
+        "y": 997.5204491127188
+      },
+      "dragging": false
+    },
+    {
+      "id": "17",
+      "position": {
+        "x": 704.8816439983923,
+        "y": 853.8130698391924
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Bad End 4：无尽的黑暗",
+        "showInfo": "剧情：林默被保安强行拖回病房，被注射了大剂量的镇静剂。从此，他陷入了无尽的昏迷之中，在黑暗的意识里，不断重复着那些被扭曲的记忆片段，再也无法醒来，医院依旧照常运转，继续掩盖着那些不可告人的秘密。​\n画面：林默躺在病床上，面色苍白，仪器上的线条微弱且平稳，病房里昏暗无光，只有偶尔闪烁的医疗设备指示灯。"
+      },
+      "type": "end",
+      "width": 202,
+      "height": 78,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 704.8816439983923,
+        "y": 853.8130698391924
+      },
+      "dragging": false
+    },
+    {
+      "id": "18",
+      "position": {
+        "x": 953.8603540517536,
+        "y": 736.9314211244985
+      },
+      "data": {
+        "label": "结局节点",
+        "mname": "Bad End 5：坠落的绝望",
+        "showInfo": "剧情：林默从天台坠落，重重地摔在医院楼下的水泥地面上。在生命的最后一刻，他的脑海中闪过与妹妹林芊曾经的美好回忆，但一切都已无法挽回。医院迅速封锁了现场，对外宣称这是一起精神病人的自杀事件，而关于医院的真相，依旧深埋在黑暗之中。​\n画面：林默的身体扭曲地躺在血泊中，双眼圆睁，充满了不甘和绝望，周围是慌乱奔跑的医护人员和保安，雨还在不停地下着，血水逐渐被雨水冲刷稀释。"
+      },
+      "type": "end",
+      "width": 200,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 953.8603540517536,
+        "y": 736.9314211244985
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": null,
+      "target": "2",
+      "targetHandle": null,
+      "id": "reactflow__edge-1-2",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "开始游戏"
+      }
+    },
+    {
+      "source": "2",
+      "sourceHandle": null,
+      "target": "4",
+      "targetHandle": null,
+      "id": "reactflow__edge-2-4",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "质问陈医生隐瞒了什么"
+      }
+    },
+    {
+      "source": "2",
+      "sourceHandle": null,
+      "target": "5",
+      "targetHandle": null,
+      "id": "reactflow__edge-2-5",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "直接结果钥匙"
+      }
+    },
+    {
+      "source": "5",
+      "sourceHandle": null,
+      "target": "6",
+      "targetHandle": null,
+      "id": "reactflow__edge-5-6",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "检查床头柜的药瓶"
+      }
+    },
+    {
+      "source": "5",
+      "sourceHandle": null,
+      "target": "7",
+      "targetHandle": null,
+      "id": "reactflow__edge-5-7",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "追问窗外的黑影"
+      }
+    },
+    {
+      "source": "4",
+      "sourceHandle": null,
+      "target": "8",
+      "targetHandle": null,
+      "id": "reactflow__edge-4-8",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "相信陈医生"
+      }
+    },
+    {
+      "source": "4",
+      "sourceHandle": null,
+      "target": "9",
+      "targetHandle": null,
+      "id": "reactflow__edge-4-9",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "掐住陈医生逼问"
+      }
+    },
+    {
+      "source": "6",
+      "sourceHandle": null,
+      "target": "10",
+      "targetHandle": null,
+      "id": "reactflow__edge-6-10",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "注射解药恢复记忆"
+      }
+    },
+    {
+      "source": "6",
+      "sourceHandle": null,
+      "target": "11",
+      "targetHandle": null,
+      "id": "reactflow__edge-6-11",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "销毁所有药剂"
+      }
+    },
+    {
+      "source": "7",
+      "sourceHandle": null,
+      "target": "12",
+      "targetHandle": null,
+      "id": "reactflow__edge-7-12",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "接过刀刺向镜子"
+      }
+    },
+    {
+      "source": "7",
+      "sourceHandle": null,
+      "target": "13",
+      "targetHandle": null,
+      "id": "reactflow__edge-7-13",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "割腕自杀"
+      }
+    },
+    {
+      "source": "8",
+      "sourceHandle": null,
+      "target": "14",
+      "targetHandle": null,
+      "id": "reactflow__edge-8-14",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "反抗保安"
+      }
+    },
+    {
+      "source": "8",
+      "sourceHandle": null,
+      "target": "15",
+      "targetHandle": null,
+      "id": "reactflow__edge-8-15",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "冷静下来，寻找破绽"
+      }
+    },
+    {
+      "source": "15",
+      "sourceHandle": null,
+      "target": "10",
+      "targetHandle": null,
+      "id": "reactflow__edge-15-10",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "带着证据逃离医院，报警揭露"
+      }
+    },
+    {
+      "source": "15",
+      "sourceHandle": null,
+      "target": "16",
+      "targetHandle": null,
+      "id": "reactflow__edge-15-16",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "直接去找院长对峙"
+      }
+    },
+    {
+      "source": "9",
+      "sourceHandle": null,
+      "target": "17",
+      "targetHandle": null,
+      "id": "reactflow__edge-9-17",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "奋力推开保安，尝试逃跑"
+      }
+    },
+    {
+      "source": "9",
+      "sourceHandle": null,
+      "target": "18",
+      "targetHandle": null,
+      "id": "reactflow__edge-9-18",
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "趁保安不注意，翻过围栏想从天台外侧逃离"
+      }
+    }
+  ]
+}
