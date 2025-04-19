@@ -1,0 +1,386 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "data": {
+        "label": "开始节点",
+        "mname": "开始游戏",
+        "showInfo": "游戏封面",
+        "parentId": null,
+        "transitionType": "btnsto",
+        "buttons": [
+          {
+            "title": "开始游戏"
+          }
+        ]
+      },
+      "type": "start",
+      "width": 174,
+      "height": 77,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -1,
+        "y": 0
+      }
+    },
+    {
+      "id": "2",
+      "position": {
+        "x": -4.019146731131741,
+        "y": 134.84782955039068
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "第一幕",
+        "parentId": null,
+        "showInfo": "高考恋爱100天",
+        "transitionType": "goto",
+        "buttons": []
+      },
+      "type": "plot",
+      "width": 182,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -4.019146731131741,
+        "y": 134.84782955039068
+      },
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "position": {
+        "x": 11.945717669918167,
+        "y": -148.74449313004902
+      },
+      "data": {
+        "label": "入口节点",
+        "mname": "入口",
+        "parentId": "3"
+      },
+      "type": "entry",
+      "width": 104,
+      "height": 104,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 11.945717669918167,
+        "y": -148.74449313004902
+      },
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "position": {
+        "x": -26.054282330081833,
+        "y": 289.25550686995103
+      },
+      "data": {
+        "label": "收纳节点",
+        "mname": "日程安排",
+        "parentId": null,
+        "note": "",
+        "childNodes": [],
+        "childEdges": []
+      },
+      "type": "container",
+      "width": 224,
+      "height": 53,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -26.054282330081833,
+        "y": 289.25550686995103
+      },
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "position": {
+        "x": -25.10293799257323,
+        "y": 27.316514994036567
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "指令安排",
+        "parentId": "3",
+        "showInfo": "现在是第{{round}}回合。\n知识：{{zhishi}}\n运动：{{yundong}}\n魅力：{{meili}}\n请选择你的指令安排：",
+        "transitionType": "btnsto",
+        "buttons": [
+          {
+            "title": "学习"
+          },
+          {
+            "title": "运动"
+          },
+          {
+            "title": "打扮"
+          }
+        ]
+      },
+      "type": "plot",
+      "width": 178,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -25.10293799257323,
+        "y": 27.316514994036567
+      },
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "position": {
+        "x": -204.8456370869593,
+        "y": 191.9144425304833
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "模块6",
+        "parentId": "3",
+        "showInfo": "知识 + 2 -> {{zhishi}}",
+        "transitionType": "goto",
+        "buttons": []
+      },
+      "type": "plot",
+      "width": 174,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -204.8456370869593,
+        "y": 191.9144425304833
+      },
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "position": {
+        "x": -18.21143854147715,
+        "y": 189.04561850028404
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "模块7",
+        "parentId": "3",
+        "showInfo": "运动 + 2 = {{yundong}}",
+        "transitionType": "goto",
+        "buttons": []
+      },
+      "type": "plot",
+      "width": 174,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -18.21143854147715,
+        "y": 189.04561850028404
+      },
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "position": {
+        "x": 171.61269222532496,
+        "y": 189.47528133194498
+      },
+      "data": {
+        "label": "情节节点",
+        "mname": "模块8",
+        "parentId": "3",
+        "showInfo": "魅力 + 2 -> {{meili}}",
+        "transitionType": "goto",
+        "buttons": []
+      },
+      "type": "plot",
+      "width": 174,
+      "height": 77,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 171.61269222532496,
+        "y": 189.47528133194498
+      },
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "position": {
+        "x": 15.04928404900653,
+        "y": 392.3533893431991
+      },
+      "data": {
+        "label": "出口节点",
+        "mname": "出口节点",
+        "parentId": "3",
+        "showInfo": "",
+        "note": ""
+      },
+      "type": "exit",
+      "width": 104,
+      "height": 104,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 15.04928404900653,
+        "y": 392.3533893431991
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": null,
+      "target": "2",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-1-2"
+    },
+    {
+      "source": "2",
+      "sourceHandle": null,
+      "target": "3",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-2-3"
+    },
+    {
+      "source": "4",
+      "sourceHandle": null,
+      "target": "5",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-4-5"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "button-0",
+      "target": "6",
+      "targetHandle": null,
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "学习",
+        "updateVariables": {
+          "zhishi": "{{zhishi}} + 2"
+        }
+      },
+      "id": "reactflow__edge-5button-0-6"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "button-1",
+      "target": "7",
+      "targetHandle": null,
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "运动",
+        "updateVariables": {
+          "yundong": "{{yundong}} + 2"
+        }
+      },
+      "id": "reactflow__edge-5button-1-7"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "button-2",
+      "target": "8",
+      "targetHandle": null,
+      "data": {
+        "ntype": "btnsto",
+        "btnname": "打扮",
+        "updateVariables": {
+          "meili": "{{meili}} + 2"
+        }
+      },
+      "id": "reactflow__edge-5button-2-8"
+    },
+    {
+      "source": "6",
+      "sourceHandle": null,
+      "target": "9",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-6-9"
+    },
+    {
+      "source": "7",
+      "sourceHandle": null,
+      "target": "9",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-7-9"
+    },
+    {
+      "source": "8",
+      "sourceHandle": null,
+      "target": "9",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {}
+      },
+      "id": "reactflow__edge-8-9"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "exit-9",
+      "target": "3",
+      "targetHandle": null,
+      "data": {
+        "ntype": "goto",
+        "btnname": "",
+        "updateVariables": {
+          "round": "{{round}} + 1"
+        }
+      },
+      "id": "reactflow__edge-3exit-9-3"
+    }
+  ],
+  "variables": [
+    {
+      "name": "round",
+      "description": "回合数",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "zhishi",
+      "description": "知识的值",
+      "type": "number",
+      "defaultValue": 10
+    },
+    {
+      "name": "yundong",
+      "description": "运动的值",
+      "type": "number",
+      "defaultValue": 10
+    },
+    {
+      "name": "meili",
+      "description": "魅力的值",
+      "type": "number",
+      "defaultValue": 10
+    }
+  ]
+}
